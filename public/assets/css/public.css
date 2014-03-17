@@ -1,0 +1,48 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+.mailerlite_container {
+	text-align: center;
+}
+.mailerlite_row {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.mailerlite_row > label {
+	display: block;
+	margin-bottom: 15px;
+}
+.mailerlite_row > input {
+	text-align: center;
+}
+.mailerlite_row > input[type=text].invalid, .mailerlite_row > input[type=email].invalid, .mailerlite_row > textarea.invalid {
+  box-shadow: 0 0 5px #FF0000!important;
+  padding: 3px 0px 3px 3px!important;
+  margin: 5px 1px 3px 0px!important;
+  border: 1px solid #FF0000!important;
+}
+.mailerlite_row > input[type=text], .mailerlite_row > input[type=email], .mailerlite_row > textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+.mailerlite_row > input[type=text]:focus, .mailerlite_row > input[type=email]:focus, .mailerlite_row > textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.mailerlite_button {
+	padding: 8px 20px;
+	min-width: 140px;
+}
+.mailerlite_row > p.success {
+	color: #00FF00;
+}
+.mailerlite_row > p.error {
+	color: #FF0000;
+}

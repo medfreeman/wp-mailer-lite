@@ -1,0 +1,466 @@
+# Copyright (C) 2014 Mehdi Lahlou
+# This file is distributed under the same license as the Mailer_Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-09 20:43+0100\n"
+"PO-Revision-Date: 2014-03-10 01:02+0100\n"
+"Last-Translator: Mehdi Lahlou <mehdi.lahlou@free.fr>\n"
+"Language-Team: Mehdi Lahlou <mehdi.lahlou@free.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;add_message:3\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-mailer-lite-admin.php:114
+msgid "Mailer Lite"
+msgstr "Mailer Lite"
+
+#: admin/class-mailer-lite-admin.php:125
+msgid "Mailer Lite API Key"
+msgstr "CLé API de Mailer Lite"
+
+#: admin/class-mailer-lite-admin.php:126
+msgid ""
+"API key you can find in Developer API section in MailerLite (in site footer)."
+msgstr ""
+"Clé API. Vous pouvez la trouver dans la section Developpeur API dans la "
+"console de MailerLite (dans le pied de page)."
+
+#: admin/class-mailer-lite-admin.php:132
+msgid "Load default css styles"
+msgstr "Charger les styles css par défaut."
+
+#: admin/class-mailer-lite-admin.php:133
+msgid ""
+"Disable to implement your own styles (you can copy the contents of wp-"
+"content/plugins/mailer-lite/public/assets/css/public.css in your own "
+"stylesheet and modify them)."
+msgstr ""
+"Désactiver pour fournir vos propres styles (vous pouvez copier le contenu du "
+"fichier wp-content/plugins/mailer-lite/public/assets/css/public.css dans une "
+"de vos feuilles de style et le personnaliser)."
+
+#: admin/class-mailer-lite-admin.php:139
+msgid "Loading body class"
+msgstr "Classe de l'élément body"
+
+#: admin/class-mailer-lite-admin.php:140
+msgid ""
+"Class added to the body element when the form is being submitted (Allows "
+"adding a loading sign for example)."
+msgstr ""
+"Classe css ajoutée à l'élément body lorsque le formulaire est en train "
+"d'être soumis (Permet par exemple d'ajouter un symbole de chargement)."
+
+#: admin/includes/admin-page-framework.min.php:24
+msgid "queries_in_seconds"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:24
+msgid "out_of_x_memory_used"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:24
+msgid "peak_memory_usage"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:24
+msgid "initial_memory_usage"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "option_cleared"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "option_updated"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "import_error"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "uploaded_file_type_not_supported"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "could_not_load_importing_data"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "not_imported_data"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "imported_data"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "reset_options"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "confirm_perform_task"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "option_been_reset"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "specified_option_been_deleted"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "title"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "author"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:49
+msgid "date"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "show_all"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The options have been updated."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The options have been cleared."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Export"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Export Options"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Import"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Import Options"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Submit"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "An error occurred while uploading the import file."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+#, php-format
+msgid "The uploaded file type is not supported: %1$s"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Could not load the importing data."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The uploaded file has been imported."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "No data could be imported."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Upload Image"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Use This Image"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Are you sure you want to reset the options?"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Please confirm if you want to perform the specified task."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The options have been reset."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The specified options have been deleted."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Title"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Author"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Categories"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Tags"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Comments"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Date"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Show All"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Powered by"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Settings"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Manage"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Select Image"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Upload File"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Use This File"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Select File"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+#, php-format
+msgid "%s queries in %s seconds."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+#, php-format
+msgid "%s out of %s MB (%s) memory used."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+#, php-format
+msgid "Peak memory usage %s MB."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+#, php-format
+msgid "Initial memory usage  %s MB."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The allowed maximum number of fields is {0}."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The allowed minimum number of fields is {0}."
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Add"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Remove"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The allowed maximum number of sections is (0)"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "The allowed minimum number of sections is (0)"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Add Section"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:59
+msgid "Remove Section"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1023
+#: admin/includes/admin-page-framework.min.php:1345
+msgid "use_this_image"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1219
+msgid "add"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1219
+msgid "remove"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1235
+msgid "allowed_maximum_number_of_fields"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1235
+msgid "allowed_minimum_number_of_fields"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1235
+msgid "allowed_maximum_number_of_sections"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1235
+msgid "allowed_minimum_number_of_sections"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1240
+msgid "add_section"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1240
+msgid "remove_section"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1245
+msgid "powered_by"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1345
+msgid "upload_image"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1686
+msgid "select_image"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1766
+msgid "submit"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1766
+msgid "export"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1773
+msgid "import"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1942
+msgid "settings"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1942
+msgid "manage"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1949
+msgid "upload_file"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:1949
+msgid "use_this_file"
+msgstr ""
+
+#: admin/includes/admin-page-framework.min.php:2171
+msgid "select_file"
+msgstr ""
+
+#: admin/views/admin.php:26
+msgid "Error : Incorrect API Key"
+msgstr "Erreur : Clé API incorrecte."
+
+#: admin/views/admin.php:30 public/class-mailer-lite.php:134
+msgid "Error :"
+msgstr "Erreur :"
+
+#: public/class-mailer-lite.php:124
+msgid "You must set a list id."
+msgstr "Vous devez préciser un identifiant de liste."
+
+#: public/class-mailer-lite.php:129
+msgid "Please enter API key."
+msgstr "Vous devez entrer votre clé API."
+
+#: public/class-mailer-lite.php:181
+msgid "Configuration error."
+msgstr "Erreur de configuration."
+
+#: public/class-mailer-lite.php:186
+msgid "Security error."
+msgstr "Erreur de sécurité."
+
+#: public/class-mailer-lite.php:191
+msgid "Invalid email address."
+msgstr "Entrez votre adresse e-mail."
+
+#: public/class-mailer-lite.php:204 public/class-mailer-lite.php:224
+#: public/class-mailer-lite.php:230 public/class-mailer-lite.php:243
+#: public/class-mailer-lite.php:266 public/class-mailer-lite.php:272
+#: public/class-mailer-lite.php:526
+msgid "Temporary error. Please try again later."
+msgstr "Erreur temporaire. Merci de réessayer plus tard."
+
+#: public/class-mailer-lite.php:212
+msgid "You have already subscribed to our newsletter ! Thank you again."
+msgstr "Vous êtes déjà abonné à notre newsletter ! Merci encore."
+
+#: public/class-mailer-lite.php:227
+msgid "You have subscribed to our newsletter ! Thank you."
+msgstr "Vous êtes maintenant abonné à notre newsletter ! Merci."
+
+#: public/class-mailer-lite.php:240 public/class-mailer-lite.php:257
+msgid "You have not subscribed to this newsletter. I can't unsubscribe you."
+msgstr ""
+"Vous n'êtes pas abonné à cette newsletter. Je ne peux pas vous désabonner."
+
+#: public/class-mailer-lite.php:269
+msgid "You have unsubscribed from our newsletter !"
+msgstr "Vous êtes bien désabonné de notre newsletter !"
+
+#: public/views/public.php:20
+msgid "Email"
+msgstr "Email"
+
+#: public/views/public.php:21
+msgid "Enter your e-mail address"
+msgstr "Entrez votre adresse e-mail"
+
+#: public/views/public.php:24
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: public/views/public.php:27
+msgid "Unsubscribe"
+msgstr "Se désabonner"
