@@ -223,7 +223,7 @@ class Mailer_Lite {
 			if( isset( $subscriber['error'] ) ) {
 				$this->add_message( $list_id, 'error', 'Temporary error. Please try again later.' );
 				return $list_id;
-			} else if ( $subscriber == $email ) {
+			} else if ( $subscriber['email'] == $email ) {
 				$this->add_message( $list_id, 'success', 'You have subscribed to our newsletter ! Thank you.' );
 				return $list_id;
 			} else {
